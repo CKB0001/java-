@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	 <package name="dream" namespace="/" extends="struts-default">  
+	   
+	     <action name="findDream" class="com.programmer.action.Action" method="finddream">	     	
+	     	<result name="success">/main.jsp</result><!-- 主界面 -->
+	     </action>
+	     
+	     <action name="updateDream" class="com.programmer.action.Action" method="updatedream">
+	     	<result name="success">/main.jsp</result><!-- 主界面 -->
+	     	<result name="false">/update_false.jsp</result><!-- 用户编辑梦失败 -->
+	     </action>
+	     
+	     <action name="deleteDream" class="com.programmer.action.Action" method="deletedream">
+	     	<result name="success">/main.jsp</result><!-- 主界面 -->
+	     	<result name="false">/delete_false.jsp/</result><!-- 用户删除梦失败 -->
+	     </action>
+	     
+	     <action name="addDream" class="com.programmer.action.Action" method="adddream">
+	     	<result name="success">/main.jsp</result><!-- 主界面 -->
+	     	<result name="false">/add_false.jsp</result><!-- 用户添加梦失败 -->
+	     </action>
+	     
+	     <action name="findiddream" class="com.programmer.action.Action" method="findid">
+	     	<result name="success">/update.jsp</result><!-- 修改界面 -->
+	     </action>
+	     
+	      <action name="findiddreamtext" class="com.programmer.action.Action" method="findid">
+	     	<result name="success">/look.jsp</result><!-- 查看界面 -->
+	     </action>
+	     
+	     <action name="time" class="com.programmer.action.Action" method="time">
+	     	<result name="success">/add.jsp</result><!-- 添加梦界面 -->
+	     </action>
+	     
+    </package>
+
+</struts>    

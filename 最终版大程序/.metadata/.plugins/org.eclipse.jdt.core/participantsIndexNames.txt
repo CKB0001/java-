@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\学习\JAVA EE\最终版大程序\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2013491471.index
+\JAVAEE_dreams\src
+D:\学习\JAVA EE\最终版大程序\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\952830794.index
+\JAVAEE_dreams\src

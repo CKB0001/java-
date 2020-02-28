@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\学习\JAVA EE\最终版大程序\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+478416610.index
+3173397269.index
+2097293994.index
+4271791651.index
+3409433845.index
+3376858989.index

@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/com/edu/action/user/UserAction.java=UTF-8
+encoding//src/com/edu/dao/DaoHibernate.java=UTF-8
+encoding//src/com/edu/dao/card/CardDao.java=UTF-8
+encoding//src/com/edu/model/card/Card.java=UTF-8

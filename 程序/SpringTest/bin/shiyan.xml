@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<!-- 配置 bean -->
+	<bean id="a" class="com.shiyan11.shiyan.Test"></bean>
+	
+	<bean id="x" class="com.shiyan11.shiyan.X"></bean>
+	<aop:config>
+		
+		<aop:aspect ref="x">
+			<aop:before method="mx1" pointcut="execution(* com.shiyan11.shiyan.Test.*())"/>
+			<aop:after method="mx2" pointcut="execution(* com.shiyan11.shiyan.Test.*())"/>
+		</aop:aspect>
+	
+	</aop:config>
+	
+	
+	
+	
+</beans>

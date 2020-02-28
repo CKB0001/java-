@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\lenovo\Desktop\baoxian"/>
+			<item value="C:\Users\lenovo\Desktop\java\SpringTest"/>
+			<item value="C:\Users\lenovo\Desktop\c06_sh_card"/>
+			<item value="C:\Users\lenovo\Desktop\shau"/>
+			<item value="C:\Users\lenovo\Desktop\Java"/>
+			<item value="C:\Users\lenovo\Desktop\JAVA\c03_02_struts2user"/>
+			<item value="C:\Users\lenovo\Desktop\JAVA\c03_01_struts2add"/>
+			<item value="C:\Users\lenovo\Desktop\HttpSessionDemo"/>
+			<item value="C:\Users\lenovo\Desktop\Lab04"/>
+			<item value="C:\Users\lenovo\Desktop\新建文件夹\shiyan3"/>
+			<item value="C:\Users\lenovo\Desktop\新建文件夹\Third"/>
+			<item value="C:\Users\lenovo\Desktop\lab03\times"/>
+			<item value="C:\Users\lenovo\Desktop\源码"/>
+			<item value="C:\Users\lenovo\Desktop\experiment2"/>
+			<item value="C:\Users\lenovo\Desktop\javaee\Students"/>
+			<item value="C:\Users\lenovo\Desktop\javaee\File1"/>
+			<item value="C:\Users\lenovo\Desktop\javaee\FirstQuestion"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="31"/>
+		<item key="DIALOG_Y_ORIGIN" value="175"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

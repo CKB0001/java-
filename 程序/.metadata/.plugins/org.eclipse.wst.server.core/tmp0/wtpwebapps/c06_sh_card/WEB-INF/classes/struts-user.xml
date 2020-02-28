@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	 <package name="default" namespace="/user" extends="struts-default">
+      
+      <action name="register" class="com.edu.action.user.UserAction" method="userRegister" >
+            <result name="success">/user/register_success.jsp</result>
+            <result name="error">/user/register.jsp</result>             
+            <result name="input">/user/register.jsp</result>          
+      </action>
+      
+      <action name="login" class="com.edu.action.user.UserAction" method="userLogin">           
+            <result name="input">/user/login.jsp</result>
+            <result name="failure">/user/login.jsp</result>
+            <result name="success">/user/login_success.jsp</result>            
+      </action>    
+      
+      <action name="find" class="com.edu.action.user.CardAction"  >
+            <result name="success">/result.jsp</result>
+            <result name="error">/user/register.jsp</result>             
+            <result name="input">/user/register.jsp</result>          
+      </action>
+       <action name="findposition" class="com.edu.action.user.CardAction" method="execFind" >
+            <result name="success">/result.jsp</result>
+            <result name="error">/user/register.jsp</result>             
+            <result name="input">/user/register.jsp</result>          
+      </action>
+    </package>
+
+</struts>    

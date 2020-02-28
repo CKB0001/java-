@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	 <package name="default" namespace="/" extends="struts-default">
+      
+      <action name="register" class="com.action.UserAction" method="userRegister" >
+            <result name="success">/register_success.jsp</result>
+            <result name="error">/register_failure.jsp</result> 
+            <result name="error_user">/register_failure_user.jsp</result>           
+      </action>
+      
+      <action name="logincheck" class="com.action.UserAction" method="userLogin">
+            <result name="failure">/login_failure.jsp</result>
+            <result name="success">/main.jsp</result>            
+      </action>    
+      
+      <action name="bookall" class="com.action.BookAction" method="findall">
+      		<result name="success" >/main.jsp</result>      
+      </action>
+      
+       <action name="findbookname" class="com.action.BookAction" method="findname">
+      		<result name="success">/list.jsp</result>      
+      </action>
+      
+       <action name="findbookauther" class="com.action.BookAction" method="findauther">
+      		<result name="success">/list.jsp</result>      
+      </action>
+      
+    </package>
+
+</struts>    

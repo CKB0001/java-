@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	 <include file="struts-dream.xml"/>
+	 
+	 <package name="user" namespace="/" extends="struts-default">
+      
+
+      <action name="register" class="com.programmer.action.Action" method="userregister" >
+            <result name="success">/User/register_success.jsp</result><!-- 用户注册成功界面 -->
+            <result name="error">/User/register_failure_user.jsp</result> <!-- 用户已经被注册界面 -->
+            <result name="false">/User/register_failure.jsp</result> <!-- 用户注册失败界面 -->
+      </action>
+      
+      <action name="login" class="com.programmer.action.Action" method="userlogin">
+      		<result name="success">/main.jsp</result><!-- 用户成功登陆界面  -->
+      		<result name="false">/User/login_failure.jsp</result><!-- 用户登录失败界面 （请输入正确的用户名和密码） -->
+      </action>
+      
+      <action name="alternewpassword" class="com.programmer.action.Action" method="alternewpassword">
+      		<result name="error">/login.jsp</result><!-- 登录界面 -->
+      		<result name="success">/login.jsp</result><!-- 用户修改成功界面 -->
+      		<result name="false">/User/login_failure.jsp</result><!-- 用户修改失败界面（请输入正确的用户名和密码） -->
+      </action>
+      
+    </package>
+	 
+</struts>    

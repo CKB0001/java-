@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-11-7 11:06:18 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.edu.entity.two.one2one_pk.IdCard" table="IDCARD" lazy="true">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="foreign"><param name="property">person</param></generator>
+
+        </id>
+        <property name="cardNo" type="java.lang.String">
+            <column name="CARDNO" />
+        </property>
+        <one-to-one name="person" class="com.edu.entity.two.one2one_pk.Person" constrained="true"></one-to-one>
+    </class>
+</hibernate-mapping>

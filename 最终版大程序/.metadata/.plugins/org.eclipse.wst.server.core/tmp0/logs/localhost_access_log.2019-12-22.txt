@@ -1,0 +1,13 @@
+127.0.0.1 - - [22/Dec/2019:17:21:43 +0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:21:46 +0800] "GET /JAVAEE_dreams/login.jsp HTTP/1.1" 200 2908
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:03 +0800] "GET /JAVAEE_dreams/login.jsp HTTP/1.1" 200 2908
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:03 +0800] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:09 +0800] "GET /JAVAEE_dreams/User/register.jsp HTTP/1.1" 200 2906
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:09 +0800] "GET /JAVAEE_dreams/img/main.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:30 +0800] "POST /JAVAEE_dreams/User/register HTTP/1.1" 200 234
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:35 +0800] "GET /JAVAEE_dreams/login.jsp HTTP/1.1" 200 2908
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:45 +0800] "POST /JAVAEE_dreams/login HTTP/1.1" 200 2393
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:45 +0800] "GET /JAVAEE_dreams/img/dan1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:57 +0800] "POST /JAVAEE_dreams/time HTTP/1.1" 200 2505
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:57 +0800] "GET /JAVAEE_dreams/img/%E6%A0%B7%E5%BC%8F0.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2019:17:22:57 +0800] "GET /JAVAEE_dreams/img/dan2.jpg HTTP/1.1" 304 -

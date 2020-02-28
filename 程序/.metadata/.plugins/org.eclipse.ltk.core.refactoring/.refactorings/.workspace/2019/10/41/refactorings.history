@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;wangjiayu&apos; to &apos;JSP页面&apos;" description="Rename resource &apos;wangjiayu&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/wangjiayu" name="JSP页面" stamp="1570511059375" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;JSP页面&apos;" deleteContents="true" description="Delete resource &apos;JSP页面&apos;" element1="/JSP页面" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1570511523234"/>
+</session>
